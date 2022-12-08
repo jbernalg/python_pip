@@ -27,7 +27,7 @@ def run():
     labels, values = utils.get_population(country)
 
     # graficar los labels, values
-    charts.generate_bar_chart(labels, values)
+    charts.generate_bar_chart(country['Country/Territory'], labels, values)
     
 
 if __name__ == '__main__':
