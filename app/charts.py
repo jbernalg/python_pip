@@ -14,7 +14,7 @@ def generate_pie_chart(labels, values):
   fig, ax = plt.subplots()
   ax.pie(values, labels=labels)
   ax.axis('equal')
-  plt.savefig('charts.png')
+  plt.savefig('charts_pie_final.png')
   plt.close()
 
 # ejecutar archivo como script desde la terminal
